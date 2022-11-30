@@ -19,15 +19,24 @@ header > div.menuinput{
     margin: 10px;
     height: 50px;
 }
-.menuinput > input {
+.menuinput > div.search >  input {
     width: 277px;
     height: 30px;
-    border: 1px solid  #d9d9d9;
+    border: 1px solid  #999999;
     
+}
+.menuinput > div.search > i {
+    display: inline-block;
+    transform: translate(-35px, 10px );
+    font-size: 1.6em;
+    cursor:pointer;
+    color: #999999;
+
 }
 .menuinput > .menu > i{
     font-size: 2em;
-    ;
+    cursor: pointer;
+    
 
     
 }
@@ -207,9 +216,17 @@ margin: 10px;
 .restauraçãoinf{
     display: flex;
     flex-direction: row;
+    
     justify-content: center;
     align-items: center;
     
+}
+.tipoderest{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .introrestauração{
     display:flex ;
